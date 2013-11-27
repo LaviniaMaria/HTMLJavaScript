@@ -1,0 +1,38 @@
+tbody>tr:nth-child(3n+0) {
+background-color:grey;
+}
+
+
+tbody>tr:nth-child(3n+1) {
+background-color:yellow;
+}
+
+tbody>tr:nth-child(3n+2) {
+background-color:#90EE90;
+}
+
+table{
+
+	margin:auto;
+}
+
+img {
+	height:80px;
+	width:80px;
+	-webkit-transition: .7s;
+	}
+	
+img:hover {
+	
+	-moz-transform:scale(2); 
+	-webkit-transform:scale(2);
+	-o-transform:scale(2);
+}
+
+p {
+	color: red;
+	-webkit-transition: color .5s;
+}
+p:hover {
+	color: blue;
+}
